@@ -1,0 +1,16 @@
+Assignment 5 - DigitRecognition_HMM
+
+Everyone, please submit your HMM code to the link given below.
+
+Your code should have basic 3 functionalities:
+
+Training: should be trained on 20 utterances of each digit.
+
+Offline testing: should be done on 10 utterances of each digit and at the end print the accuracy.
+
+Live testing: done by using the Recording module provided earlier.
+
+The naming convention for zip file: RollNumber_ DigitRecognition_HMM.zip
+
+Extended Deadline: 12th November 2021 EOD.
+Link:
