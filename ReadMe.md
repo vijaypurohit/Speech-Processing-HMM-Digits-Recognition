@@ -1,6 +1,11 @@
-/******************************************************************************************************************************************
-	Speech Processing CS 566: Assignment 05 (HMM)
-	Roll No: 214101058 MTech CSE'23 IITG
+>Speech Processing CS 566
+>
+>**Assignment 05 (HMM)**
+>
+>Roll No: 214101058 MTech CSE'23 IITG | Vijay Purohit
+
+-----------------------------
+
 	Input: 
 		*	input_lamda/* = Contains: PRESENTLY USED "Lamda Model for Each Digit"
 			**	      = Contains: "Universe.csv" of Cepstral Coefficients of Training Files
@@ -33,31 +38,27 @@
 		*	showAlphaBetaPstarInConsole :	True: to show alpa, beta probabilities in the console for each observation sequence. (also saved in files in (output/) )
 		*	showStateSeqAlphaBetaInFileForEachObsAfterConverge :	True: It will save each utterance alpha, beta probabilites and state sequence in the file in (output/).
 
-*********************************************************************************************************************************************/
-FILES:
-	* 	main_hmm.cpp	= Main File Contains Menu	
-	* 	hmm_functions.h	= Contains HMM Functions and Solution
-	* 	observation_sequence.h	= Observation Sequence Functions
+-----------------------------
+##### FILES:
+   * main_hmm.cpp	= Main File Contains Menu	
+   * hmm_functions.h	= Contains HMM Functions and Solution
+   * observation_sequence.h	= Observation Sequence Functions
 
-For Error: PlaySound() is not Identified:
-Do:
-	1 Right Click Project Name in Solution Explorer
-	2 Select Propertes --> Linker --> Input
-	3 Select Additional Dependencies --> Edit
-	4 Add name " winmm.lib "
--------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------
-Instructions to execute Code.
+##### For Error: PlaySound() is not Identified: Do:
+   * Right Click Project Name in Solution Explorer
+   * Select Propertes --> Linker --> Input
+   * Select Additional Dependencies --> Edit
+   * Add name " winmm.lib "
+-----------------------------
+### Instructions to execute Code.
 -----------------------------
 1. Open it in Visual Studio 2010. 
-	Main file: main_hmm.cpp 
+   * Main file: main_hmm.cpp 
 2. Compile it and Run. Console window will show up.
-	Interact With Menu
-		Output will be shown on the Console.
-		Detailed Output *.txt will be present in their respective folder.
+   * Interact With Menu
+      * Output will be shown on the Console.
+      * Detailed Output *.txt will be present in their respective folder.
 3. Take Care:
-	To generate The Respective Sequence (Training/Testing) before Converging or Testing.	
--------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------
-THE END.
+   * To generate The Respective Sequence (Training/Testing) before Converging or Testing.	
 -----------------------------
+THE END.
