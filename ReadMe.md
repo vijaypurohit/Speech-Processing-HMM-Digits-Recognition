@@ -51,7 +51,6 @@
    * Add name " winmm.lib "
 -----------------------------
 ### Instructions to execute Code.
------------------------------
 1. Open it in Visual Studio 2010. 
    * Main file: main_hmm.cpp 
 2. Compile it and Run. Console window will show up.
